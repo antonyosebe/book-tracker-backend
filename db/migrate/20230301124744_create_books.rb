@@ -5,7 +5,7 @@ class CreateBooks < ActiveRecord::Migration[6.1]
       t.string :genre
       t.string :page_size
       t.integer :units
-      t.string :image url
+      t.string :image_url
       t.integer :book_set_id
     end
   end
