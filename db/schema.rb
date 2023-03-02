@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2023_03_01_132108) do
     t.string "name"
     t.string "genre"
     t.string "page_size"
-    t.integer "units"
+    t.integer "review"
     t.string "image_url"
     t.integer "book_set_id"
   end
