@@ -2,10 +2,10 @@ class CreateBooks < ActiveRecord::Migration[6.1]
   def change
     create_table :books do |t|
       t.string :name
-      t.string :genre
-      t.string :page_size
+      t.string :author
       t.integer :review
-      t.string :image_url
+      t.string :comment
+      t.string :img_url
       t.integer :book_set_id
     end
   end

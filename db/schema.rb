@@ -14,16 +14,14 @@ ActiveRecord::Schema.define(version: 2023_03_01_132108) do
 
   create_table "book_sets", force: :cascade do |t|
     t.string "name"
-    t.string "author"
-    t.integer "year"
   end
 
   create_table "books", force: :cascade do |t|
     t.string "name"
-    t.string "genre"
-    t.string "page_size"
+    t.string "author"
     t.integer "review"
-    t.string "image_url"
+    t.string "comment"
+    t.string "img_url"
     t.integer "book_set_id"
   end
 
