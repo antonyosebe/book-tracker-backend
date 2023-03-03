@@ -1,1 +1,1 @@
-puma ENV['RACK_ENV'] ||= 4567
+puma ENV['PORT'] ||= 4567
